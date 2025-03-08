@@ -19,11 +19,11 @@ driver.maximize_window()
 driver.get("https://www.linkedin.com/feed/")
 WebDriverWait(driver,10).until(
     EC.element_to_be_clickable((By.ID,"username"))
-).send_keys("mayank177sharma@gmail.com")
+).send_keys("")
 
 WebDriverWait(driver,10).until(
     EC.element_to_be_clickable((By.ID,"password"))
-).send_keys("Mayank#@8797")
+).send_keys("")
 
 WebDriverWait(driver,10).until(
     EC.element_to_be_clickable((By.CLASS_NAME,"btn__primary--large"))
